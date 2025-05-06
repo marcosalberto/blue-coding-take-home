@@ -1,0 +1,24 @@
+# Backend
+
+BACKEND_DEBUG=True
+BACKEND_PORT=5005
+BACKEND_ALLOWED_HOSTS=localhost
+BACKEND_URL=http://localhost:3000
+BACKEND_CACHE_REDIS_URL=redis://redis:6379/1
+
+# Celery
+
+CELERY_BROKER_URL=redis://redis:6379
+
+# Database
+
+DATABASE_ENGINE=postgresql_psycopg2
+DATABASE_NAME=ehrintegrator
+DATABASE_USERNAME=ehrintegrator
+DATABASE_PASSWORD=z0x3%Va3N£A!
+DATABASE_HOST=database
+DATABASE_PORT=5432
+
+# Frontend
+
+FRONTEND_API_URL=http://localhost:3000
