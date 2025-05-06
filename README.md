@@ -2,16 +2,10 @@
 
 ## Project Requirements Checklist
 
-### Bullets explanation
-
-- [x] Done
-- [-] Incomplete
-- [ ] Not Done
-
 ### API Requirements
 
 - [x] Implement a method to map user input data to the appropriate fields in various EHR systems, with flexibility for different data types and systems.
-- [-] Ensure transactions captured by the API are correctly written to the respective users in the EHRs (e.g., with validation and error handling).
+- [x] Ensure transactions captured by the API are correctly written to the respective users in the EHRs (e.g., with validation and error handling).
 - [x] Use a modular design or standard interface to allow for easy addition of new EHR integrations without significant code changes.
 - [x] Design (but do not implement) an API architecture plan that allows for scalability as more users are added (e.g., load balancing, efficient data structures).
 - [x] Implement a system for managing field mappings per EHR integration (via DB or config files) and expose methods for CRUD operations on those mappings.
@@ -23,7 +17,7 @@
 ### Frontend Requirements
 
 - [x] Create an internal UI to allow team members to manage mappings for each EHR system.
-- [-] Implement proper error handling and user feedback for invalid or failed form submissions.
+- [x] Implement proper error handling and user feedback for invalid or failed form submissions.
 - [x] Design a testing strategy for the frontend.
 - [x] **Bonus:** Implement frontend tests (e.g., React Testing Library with Jest).
 - [ ] **Bonus:** Support multi-language UI (e.g., i18n for English/Spanish).
